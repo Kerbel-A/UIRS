@@ -1,0 +1,7 @@
+def decode_bits(bin_str):
+    result = 0
+    current_state = -1
+    for bit in bin_str:
+        result += int(bit) * current_state
+        current_state *= -1  
+    return result
