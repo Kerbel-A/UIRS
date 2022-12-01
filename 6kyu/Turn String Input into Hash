@@ -1,0 +1,7 @@
+def str_to_hash(st):
+    result = {}
+    if st:
+        for i in st.split(', '):
+            value = i.split('=')
+            result[value[0]] = int(value[1])   
+    return result
