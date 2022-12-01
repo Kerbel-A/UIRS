@@ -1,0 +1,4 @@
+def area_of_the_shape(f):
+    n = 400
+    st = 1 / n
+    return sum(f(k*st, j*st) for j in range(n) for k in range(n)) / n**2
