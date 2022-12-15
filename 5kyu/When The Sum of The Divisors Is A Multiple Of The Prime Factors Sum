@@ -1,3 +1,4 @@
+#https://www.codewars.com//kata/562c04fc8546d8147b000039
 def ds_multof_pfs(nMin, nMax):
     def prime(n):
         if type(n)!=int:
