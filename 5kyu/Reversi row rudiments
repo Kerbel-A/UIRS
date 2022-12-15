@@ -1,3 +1,4 @@
+#https://www.codewars.com//kata/55aa92a66f9adfb2da00009a
 def reversi_row(moves):
     stones = [set(), set()]
     for i, p in enumerate(moves):
