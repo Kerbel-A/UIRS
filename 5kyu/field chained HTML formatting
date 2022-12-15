@@ -1,3 +1,4 @@
+#https://www.codewars.com//kata/5e98a87ce8255200011ea60f
 class Format:
     tag = frozenset(("div", "h1", "p", "span"))
     def __init__(self, tg=None):
