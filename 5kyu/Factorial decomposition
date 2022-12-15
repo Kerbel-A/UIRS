@@ -1,3 +1,4 @@
+#https://www.codewars.com//kata/5a045fee46d843effa000070
 import math
 def decomp(n):
     n = math.factorial(n)
